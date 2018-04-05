@@ -3,11 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "date-fns": "^1.29.0",
     "react": "16.3.1",
-    "react-dom": "16.3.1"
+    "react-content-loader": "^3.1.1",
+    "react-data-fetching": "^0.1.2",
+    "react-dom": "16.3.1",
+    "react-responsive-tables": "^0.0.13",
+    "recompose": "^0.26.0"
   },
   "devDependencies": {
-    "react-scripts": "1.1.4"
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-shallow-until": "^1.0.1",
+    "react-scripts": "1.1.4",
+    "react-testing-library": "^1.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
